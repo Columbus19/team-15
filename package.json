@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Columbus19/team-15/issues"
   },
-  "homepage": "https://github.com/Columbus19/team-15#readme"
+  "homepage": "https://github.com/Columbus19/team-15#readme",
+  "dependencies": {
+    "react": "^16.10.2"
+  }
 }
