@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
 }
 
 .App-header {
@@ -22,7 +22,7 @@
 }
 
 .welcome {
-  /* position: relative; top: 10px; */
+  position: relative; top: -30px;
   font-size: 4em;
   text-align: center;
 }

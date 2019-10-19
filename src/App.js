@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import apprisen from './apprisen.png';
 import './App.css';
 import { Button, Navbar, Nav, Form, FormControl, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,13 +7,14 @@ import ProgressBar from './ProgressBar';
 import Summary from './Summary';
 
 const navbar = {backgroundColor: '#84BC57'};
+const center = {alignItems: 'center'};
 function App() {
   return (
     <div className="App">
       <Navbar variant="light" sticky="top" style={navbar}>
       <Navbar.Brand href="#home">Apprisen</Navbar.Brand>
-      <Nav className="mr-auto">
-        <Nav.Link href="#home">Logo</Nav.Link>
+      <Nav className="mr-auto" style={center}>
+        <Nav.Link href="#home"><img src={apprisen} className="App-logo" alt="logo" /></Nav.Link>
         <Nav.Link href="#features">Resources</Nav.Link>
         <Nav.Link href="#pricing">Forum</Nav.Link>
       </Nav>
@@ -32,7 +33,6 @@ function App() {
   <ProgressBar />
   <h1>SUMMARY</h1>
   <Summary />
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           This is the homepage
         </p>
