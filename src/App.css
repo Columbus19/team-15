@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -23,6 +24,8 @@
 .welcome {
   font-size: 2em;
   text-align: center;
+  font-family: 'Sarpanch-Regular';
+
   font-family: 'Raleway';
   margin-top: 23px;
 }

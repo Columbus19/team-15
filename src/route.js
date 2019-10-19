@@ -20,17 +20,12 @@ export default function BasicExample() {
     return (
       <Router>
         <Navbar variant="light" sticky="top" style={navbar}>
-        <Navbar.Brand href="#home">Apprisen</Navbar.Brand>
         <Nav className="mr-auto" style={center}>
             <Link to="/"><img src={apprisen} className="App-logo" alt="logo" /></Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/resources">Resources</Nav.Link>
             <Nav.Link href="/forum">Forum</Nav.Link>
         </Nav>
-        <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2"/>
-            <Button variant="secondary">Search</Button>
-        </Form>
         </Navbar>
         <div>
   
