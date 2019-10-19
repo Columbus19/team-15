@@ -118,19 +118,6 @@ const data = [
 function App() {
   return (
     <div className="App">
-      <Navbar variant="light" sticky="top" style={navbar}>
-      <Navbar.Brand href="#home">Apprisen</Navbar.Brand>
-      <Nav className="mr-auto" style={center}>
-        <Nav.Link href="#home"><img src={apprisen} className="App-logo" alt="logo" /></Nav.Link>
-        <Nav.Link href="#about">About</Nav.Link>
-        <Nav.Link href="#resources">Resources</Nav.Link>
-        <Nav.Link href="#forum">Forum</Nav.Link>
-      </Nav>
-      <Form inline>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <Button variant="outline-info">Search</Button>
-      </Form>
-    </Navbar>
       <header className="App-header">
         <Container>
           <div className="welcome">
