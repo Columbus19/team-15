@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import { Button, Navbar, Nav, Form, FormControl, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './ProgressBar';
 
 function App() {
   return (
