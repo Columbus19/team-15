@@ -5,7 +5,10 @@ import './App.css';
 import { Button, Navbar, Nav, Form, FormControl, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProgressBar from './ProgressBar';
+import PieChart from './PieChart';
 import Summary from './Summary';
+import Stats from './Stats';
+
 import 'antd/dist/antd.css';
 import './index.css';
 import { Table, Divider, Tag } from 'antd';
@@ -116,26 +119,32 @@ function App() {
   return (
     <div className="App">
       <Navbar variant="light" sticky="top" style={navbar}>
+      <Navbar.Brand href="#home">Apprisen</Navbar.Brand>
       <Nav className="mr-auto" style={center}>
         <Nav.Link href="#home"><img src={apprisen} className="App-logo" alt="logo" /></Nav.Link>
         <Nav.Link href="#about">About</Nav.Link>
         <Nav.Link href="#resources">Resources</Nav.Link>
         <Nav.Link href="#forum">Forum</Nav.Link>
       </Nav>
+      <Form inline>
+        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+        <Button variant="outline-info">Search</Button>
+      </Form>
     </Navbar>
       <header className="App-header">
+        <Container>
           <div className="welcome">
             Welcome Joe Schmoe!
           </div>
+        </Container>
   <br />
   <ProgressBar />
+  <PieChart />
+  <Stats />
   <Table columns={columns} dataSource={data} />
-  {/* <Summary /> */}
       </header>
     </div>
   );
 }
-
-
 
 export default App;
