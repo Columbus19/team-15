@@ -7,7 +7,7 @@ class Summary extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        progress: 25
+//        progress: 25
       };
     }
     

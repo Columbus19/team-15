@@ -4,7 +4,9 @@ import './App.css';
 import { Button, Navbar, Nav, Form, FormControl, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProgressBar from './ProgressBar';
+import PieChart from './PieChart';
 import Summary from './Summary';
+import Stats from './Stats';
 
 const navbar = {backgroundColor: '#84BC57'};
 const center = {alignItems: 'center'};
@@ -31,6 +33,8 @@ function App() {
         </Container>
   <br />
   <ProgressBar />
+  <PieChart />
+  <Stats />
   <h1>SUMMARY</h1>
   <Summary />
         <p>
