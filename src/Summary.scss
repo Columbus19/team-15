@@ -1,13 +1,12 @@
-#app {
+#summary {
     // height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: start;
     align-items: center;
     
   }
 
-  #app div {
+  #summary div {
   
       display: flex;
       justify-content: start;
@@ -15,10 +14,10 @@
     
   }
   
-  .shell {
+  .column {
     float: left;
-    height: 40px;
-    width: 550px;
+    height: fit-content;
+    width: 250px;
     border: 1px solid #aaa;
     border-radius: 13px;
     padding: 3px;
@@ -52,4 +51,9 @@
     // padding:  2px, 2px, 2px, 2px;
     outline: none;
     cursor: pointer;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0px;
   }

@@ -28,7 +28,7 @@ class ProgressBar extends React.Component {
           <div className="shell">
             <div className="bar" style={ progress }><span>{ this.state.progress + "%" }</span></div>
           </div>
-          <button onClick={ this.clickHandler.bind(this) }>+</button>
+          <button onClick={ this.clickHandler.bind(this) }>Make Payment</button>
         </div>
       )
     }

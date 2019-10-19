@@ -4,6 +4,7 @@ import './App.css';
 import { Button, Navbar, Nav, Form, FormControl, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProgressBar from './ProgressBar';
+import Summary from './Summary';
 
 const navbar = {backgroundColor: '#84BC57'};
 function App() {
@@ -29,6 +30,8 @@ function App() {
         </Container>
   <br />
   <ProgressBar />
+  <h1>SUMMARY</h1>
+  <Summary />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           This is the homepage
