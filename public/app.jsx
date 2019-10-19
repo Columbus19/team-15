@@ -5,15 +5,14 @@ import { Button, Navbar, Nav, Form, FormControl, Container} from 'react-bootstra
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProgressBar from './ProgressBar';
 import Summary from './Summary';
-import ReactDOM from 'react-dom';
+
 
 const navbar = {backgroundColor: '#84BC57'};
 const center = {alignItems: 'center'};
 
-const r = React.createElement.bind(React);
-
-const App = ()=> {
-  return (
+class App extends React.Component {
+  render () {
+    return (
     <div className="App">
       <Navbar variant="light" sticky="top" style={navbar}>
       <Navbar.Brand href="#home">Apprisen</Navbar.Brand>
@@ -50,7 +49,12 @@ const App = ()=> {
         </a>
       </header>
     </div>
+    );
+  };
+}
+
+ReactDOM.render(
+  <App />, 
+  document.getElementById("root")
   );
-};
-ReactDOM.render(r(App), document.getElementById('root'));
-export default App;
+// export default app;
