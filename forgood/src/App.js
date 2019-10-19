@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button, Navbar, Nav, Form, FormControl} from 'react-bootstrap';
+import { Button, Navbar, Nav, Form, FormControl, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './ProgressBar';
 
 function App() {
   return (
@@ -20,6 +21,11 @@ function App() {
       </Form>
     </Navbar>
       <header className="App-header">
+        <Container>
+          <div class="welcome">
+            Welcome Joe Schmoe!
+          </div>
+        </Container>
   <br />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
