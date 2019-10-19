@@ -1,7 +1,6 @@
 import React from 'react';
 import './ProgressBar.scss';
-
-
+import {Redirect} from 'react-router-dom';
 
 class ProgressBar extends React.Component {
     constructor(props) {
@@ -16,6 +15,8 @@ class ProgressBar extends React.Component {
       this.setState({
         progress: this.state.progress < 100 ? this.state.progress + 5 : 100
       });
+      let path = `req`;
+      return <Redirect to='/req'/>
     }
     
     render() {
