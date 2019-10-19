@@ -7,6 +7,8 @@ import 'antd/dist/antd.css';
 import './index.css';
 import App from './App';
 import About from './About';
+import Resources from './Resources';
+import Fourm from './Fourm';
 import {
     BrowserRouter as Router,
     Switch,
@@ -46,6 +48,9 @@ export default function BasicExample() {
             <Route path="/resources">
               <Resources />
             </Route>
+            <Route path="/fourm">
+              <Fourm />
+            </Route>
           </Switch>
         </div>
       </Router>
@@ -55,19 +60,5 @@ export default function BasicExample() {
   // You can think of these components as "pages"
   // in your app.
   
-  function Home() {
-    return (
-      <div>
-        <h2>Home</h2>
-      </div>
-    );
-  }
   
-  function Resources() {
-    return (
-      <div>
-        <h2>Dashboard</h2>
-      </div>
-    );
-  }
   

@@ -1,0 +1,32 @@
+.App {
+    text-align: center;
+    flex-direction: row;
+  }
+  
+  .App-logo {
+    height: 6vmin;
+  }
+  
+  .App-header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  
+  .App-link {
+    color: #09d3ac;
+  }
+  
+  .welcome {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Sarpanch-Regular';
+  
+    font-family: 'Raleway';
+    margin-top: 23px;
+  }
+  
