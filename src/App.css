@@ -7,14 +7,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -22,39 +22,7 @@
 }
 
 .welcome {
-  position: relative; top: -50px;
+  /* position: relative; top: 10px; */
   font-size: 4em;
   text-align: center;
-}
-
-#progess {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.bar {
-  background: linear-gradient(to right, lighten(#7b4397, 10%) , lighten(#dc2430, 10%));
-  height: 20px;
-  width: 15px;
-  border-radius: 9px;
-}
-
-button {
-  margin: 10px;
-  border: 1px solid #aaa;
-  background: none;
-  border-radius: 50%;
-  padding: 4px 8px;
-  outline: none;
-  cursor: pointer;
-}
-
-.span-bar {
-    float: right;
-    padding: 4px;
-    color: #fff;
-    font-size: 0.7em
 }
