@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'antd/dist/antd.css';
 import './index.css';
 import App from './App';
+import About from './About';
 import {
     BrowserRouter as Router,
     Switch,
@@ -27,8 +28,8 @@ export default function BasicExample() {
             <Nav.Link href="/forum">Forum</Nav.Link>
         </Nav>
         <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-info">Search</Button>
+            <FormControl type="text" placeholder="Search" className="mr-sm-2"/>
+            <Button variant="secondary">Search</Button>
         </Form>
         </Navbar>
         <div>
@@ -63,14 +64,6 @@ export default function BasicExample() {
     return (
       <div>
         <h2>Home</h2>
-      </div>
-    );
-  }
-  
-  function About() {
-    return (
-      <div>
-        <h2>About</h2>
       </div>
     );
   }
