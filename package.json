@@ -1,22 +1,33 @@
 {
-  "name": "team-15",
-  "version": "1.0.0",
-  "description": "Apprisen Progressive Web App",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Columbus19/team-15.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Columbus19/team-15/issues"
-  },
-  "homepage": "https://github.com/Columbus19/team-15#readme",
+  "name": "forgood",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "react": "^16.10.2"
+    "bootstrap": "^4.3.1",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
