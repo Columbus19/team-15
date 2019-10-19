@@ -1,0 +1,52 @@
+#app {
+    // height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+  }
+
+  #app div {
+  
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    
+  }
+  
+  .shell {
+    float: left;
+    height: 27px;
+    width: 250px;
+    border: 1px solid #aaa;
+    border-radius: 13px;
+    padding: 3px;
+  }
+  
+  .bar {
+    background: linear-gradient(to right, lighten(#7b4397, 10%) , lighten(#dc2430, 10%));
+    height: 20px;
+    width: 15px;
+    border-radius: 9px;
+   
+  }
+
+  .bar span {
+      float: right;
+      padding: 4px;
+      color: #fff;
+      font-size: 0.7em;
+      vertical-align: middle;
+      text-align: center;
+
+  }
+  
+  button {
+    margin: 10px;
+    border: 1px solid #aaa;
+    background: none;
+    border-radius: 50%;
+    // padding:  2px, 2px, 2px, 2px;
+    outline: none;
+    cursor: pointer;
+  }

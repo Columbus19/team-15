@@ -3,11 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import { Button, Navbar, Nav, Form, FormControl, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ProgressBar from './ProgressBar';
 
+const navbar = {backgroundColor: '#84BC57'};
 function App() {
   return (
     <div className="App">
-      <Navbar bg="light" variant="light" sticky="top">
+      <Navbar variant="light" sticky="top" style={navbar}>
       <Navbar.Brand href="#home">Apprisen</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="#home">Logo</Nav.Link>
@@ -21,11 +23,12 @@ function App() {
     </Navbar>
       <header className="App-header">
         <Container>
-          <div class="welcome">
+          <div className="welcome">
             Welcome Joe Schmoe!
           </div>
         </Container>
   <br />
+  <ProgressBar />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           This is the homepage
